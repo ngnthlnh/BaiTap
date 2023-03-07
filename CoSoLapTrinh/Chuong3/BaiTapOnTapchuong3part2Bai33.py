@@ -1,8 +1,8 @@
 i=1
-while 1<=0:
+while i<=9:
     j=1
     while j<=9:
-        print(j*i,end="")
+        print(str(j*i).rjust(4),end=" ")
         j=j+1
     print("\n")
     i=i+1
